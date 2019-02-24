@@ -1,0 +1,4 @@
+/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeFiles/install.dir
+/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeFiles/example.dir
+/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeFiles/ALL_BUILD.dir
+/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeFiles/ZERO_CHECK.dir

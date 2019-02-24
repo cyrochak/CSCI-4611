@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A90929CA4A0640969C9AB9A5 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 11B052176B6E4AF791D8F75F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				A4D295991D4B45428B9F5D44 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E458947BE68E42EFB3D8DF20 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		AD00F35C879842A58F958908 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC5E6ECDCE1648AFBB184822 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8D3D0F63F7E9404191D6F399 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		C045F089B39B4F0895EDE8F0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8409AF8902A9481B954480A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A270C61443444F3284C64FAC /* CMake Rules */,
+			);
+			dependencies = (
+				BF060CABC933410C9A61F103 /* PBXTargetDependency */,
+				3E506B4BE8CA43B4BE30254D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F829535F1144C5C8D169E48 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/README.md */ = {isa = PBXBuildFile; fileRef = E532BD01CDD2445485E16AB2 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/README.md */; };
+		101160B7551142BC9B2ABDF1 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.h */ = {isa = PBXBuildFile; fileRef = 3E3301881F7941B48BF4F06D /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.h */; };
+		55B44C814B4D4B3DBFB2E439 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1E9E1F514ADC45E19563F239 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */; };
+		6C188CBAF80D4584B53422D5 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/main.cc */ = {isa = PBXBuildFile; fileRef = B284A6A764144B7782819F1B /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/main.cc */; };
+		AB79DEAB62CE4519B744135B /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.cc */ = {isa = PBXBuildFile; fileRef = A3807190DCB14D33BA66C686 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.cc */; };
+		B960C9A5946E46A7AD78BAD1 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/config.h */ = {isa = PBXBuildFile; fileRef = 9D208CB1FEB24E8395EAB766 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/config.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3D47875C362648AA93196182 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5B0DA1E8E6D04903B8BD8631 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F947877CD2984F6E93958713 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FD3573ADF7B24FF7AE772D5D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		18C7F06EE00B421D81D092CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CED35301CBD42CAABA65C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD00F35C879842A58F958908;
+			remoteInfo = ZERO_CHECK;
+		};
+		45CF9C533A254A8284341F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CED35301CBD42CAABA65C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD00F35C879842A58F958908;
+			remoteInfo = ZERO_CHECK;
+		};
+		61A02549BCD6405DAA63699A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CED35301CBD42CAABA65C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B620FF1EAB074EDEAD71B5DE;
+			remoteInfo = example;
+		};
+		F50F9DC7018B451886390D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CED35301CBD42CAABA65C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C045F089B39B4F0895EDE8F0;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17EB161759914A3D97C230C0 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E9E1F514ADC45E19563F239 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3E3301881F7941B48BF4F06D /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = example.h; path = example.h; sourceTree = SOURCE_ROOT; };
+		86126EC77B814D13A6042183 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = example; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D208CB1FEB24E8395EAB766 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		A3807190DCB14D33BA66C686 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cc; path = example.cc; sourceTree = SOURCE_ROOT; };
+		B284A6A764144B7782819F1B /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		E532BD01CDD2445485E16AB2 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07BD4EDFC2AA406EA6AB7399 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				66545CEC1C244ED3B123C063 /* Source Files */,
+				AEB0EAD409414BEF8DAB0C7B /* Header Files */,
+				1E9E1F514ADC45E19563F239 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */,
+				E532BD01CDD2445485E16AB2 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/README.md */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		4C8550FC7C45403BAEC4419D = {
+			isa = PBXGroup;
+			children = (
+				07BD4EDFC2AA406EA6AB7399 /* example */,
+				FD5CF4C68371444EB5DCEC96 /* ALL_BUILD */,
+				DC6DF89561C94AB6BDCA31EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66545CEC1C244ED3B123C063 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3807190DCB14D33BA66C686 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.cc */,
+				B284A6A764144B7782819F1B /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AEB0EAD409414BEF8DAB0C7B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D208CB1FEB24E8395EAB766 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/config.h */,
+				3E3301881F7941B48BF4F06D /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C86227539CAA4A2B92978D6C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DC6DF89561C94AB6BDCA31EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86126EC77B814D13A6042183 /* example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5CF4C68371444EB5DCEC96 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C86227539CAA4A2B92978D6C /* CMake Rules */,
+				17EB161759914A3D97C230C0 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B620FF1EAB074EDEAD71B5DE /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A6D4E8449A4003BD4B1D2D /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				EF2C9DF3BFD4498EB6FA3D9C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B437D90BC66143B4B2486002 /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = 86126EC77B814D13A6042183 /* example */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CED35301CBD42CAABA65C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 17A428D24D774EEA9B9929FC /* Build configuration list for PBXProject "example" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F947877CD2984F6E93958713 /* Debug */,
+				5B0DA1E8E6D04903B8BD8631 /* Release */,
+				3D47875C362648AA93196182 /* MinSizeRel */,
+				FD3573ADF7B24FF7AE772D5D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4C8550FC7C45403BAEC4419D;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C045F089B39B4F0895EDE8F0 /* ALL_BUILD */,
+				AD00F35C879842A58F958908 /* ZERO_CHECK */,
+				B620FF1EAB074EDEAD71B5DE /* example */,
+				A90929CA4A0640969C9AB9A5 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D3D0F63F7E9404191D6F399 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		96B97A7ADD684C3DBFBB7B4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A270C61443444F3284C64FAC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A4D295991D4B45428B9F5D44 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		ECA835E076234BA2999EB30B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FC99CA3D2AED42A596A56FB2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2C9DF3BFD4498EB6FA3D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB79DEAB62CE4519B744135B /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/example.cc */,
+				6C188CBAF80D4584B53422D5 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E506B4BE8CA43B4BE30254D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B620FF1EAB074EDEAD71B5DE /* example */;
+			targetProxy = 61A02549BCD6405DAA63699A /* PBXContainerItemProxy */;
+		};
+		B437D90BC66143B4B2486002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD00F35C879842A58F958908 /* ZERO_CHECK */;
+			targetProxy = 45CF9C533A254A8284341F85 /* PBXContainerItemProxy */;
+		};
+		BF060CABC933410C9A61F103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD00F35C879842A58F958908 /* ZERO_CHECK */;
+			targetProxy = 18C7F06EE00B421D81D092CD /* PBXContainerItemProxy */;
+		};
+		E458947BE68E42EFB3D8DF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C045F089B39B4F0895EDE8F0 /* ALL_BUILD */;
+			targetProxy = F50F9DC7018B451886390D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F168B02809B4305BBED873F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		25D6DA65EA004095A375CBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		27E56D52C0AE4B74B0A65D39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		28CB088DD85C43EBAC5CFF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2BC09A7A6F7245D9A7766EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		42216C43411C4413BACA1CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		56798806B6514E689370661F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		786D21C3CA73450DB37E2B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/build";
+			};
+			name = Release;
+		};
+		7BAD9716A7AE4AE98CF5DA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/build";
+			};
+			name = Debug;
+		};
+		877A8165452B47A7BB9A93F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/build";
+			};
+			name = MinSizeRel;
+		};
+		8BB669585B204273A040A457 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9517A965EE9A406F9E5441A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		95954B49A9B248E1B93FBB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A7235AB99F894EA5ABA257AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A7E35F55DF594DBC96D10D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B3F9FD76643849F09CBDF616 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B6DC8506DBCB4A16BCEB0FEF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BE477351BB6F4D22BF225B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C02891CD23F24BF09A1732FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CBDC1EF60ECC422CAE0CCD0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/SoupCan/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B052176B6E4AF791D8F75F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE477351BB6F4D22BF225B67 /* Debug */,
+				A7E35F55DF594DBC96D10D6E /* Release */,
+				A7235AB99F894EA5ABA257AC /* MinSizeRel */,
+				B3F9FD76643849F09CBDF616 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		17A428D24D774EEA9B9929FC /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAD9716A7AE4AE98CF5DA3F /* Debug */,
+				786D21C3CA73450DB37E2B16 /* Release */,
+				877A8165452B47A7BB9A93F2 /* MinSizeRel */,
+				9517A965EE9A406F9E5441A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61A6D4E8449A4003BD4B1D2D /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02891CD23F24BF09A1732FF /* Debug */,
+				42216C43411C4413BACA1CB0 /* Release */,
+				1F168B02809B4305BBED873F /* MinSizeRel */,
+				27E56D52C0AE4B74B0A65D39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8409AF8902A9481B954480A0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D6DA65EA004095A375CBEB /* Debug */,
+				2BC09A7A6F7245D9A7766EFD /* Release */,
+				B6DC8506DBCB4A16BCEB0FEF /* MinSizeRel */,
+				CBDC1EF60ECC422CAE0CCD0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC5E6ECDCE1648AFBB184822 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CB088DD85C43EBAC5CFF96 /* Debug */,
+				95954B49A9B248E1B93FBB26 /* Release */,
+				8BB669585B204273A040A457 /* MinSizeRel */,
+				56798806B6514E689370661F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CED35301CBD42CAABA65C35 /* Project object */;
+}

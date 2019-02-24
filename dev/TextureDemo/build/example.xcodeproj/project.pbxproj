@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		18C4060466314B7EB951E021 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6A1A0762D16547B88EEE01B6 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				5C2C0DC87B5C46A681A46661 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E23E8A218A5443BAAA705983 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D33E15244554F2896B77324 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E89F4CCFB7EE489695B2A0F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				89BD07104C8B4F33B0E7C4CF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D24F81D0CD6D4144BB46E66D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32078C944D044DC09045B99E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				64CCA49F39A24875A6BE2A53 /* CMake Rules */,
+			);
+			dependencies = (
+				DD04B38209B24198A9EA2997 /* PBXTargetDependency */,
+				09F8BBF406E1481589CF86D6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21E680785372464E80E9437E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/main.cc */ = {isa = PBXBuildFile; fileRef = CBA244B948A948329BC63747 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/main.cc */; };
+		2255DD9973944F64BAE1EBF8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.cc */ = {isa = PBXBuildFile; fileRef = F159062981EA4B0FAF78E170 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.cc */; };
+		3575311FBD33497396A7E15C /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9ED6A272297747D5817038A7 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */; };
+		47A66CB73D2F40EFBDBFAE04 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/README.md */ = {isa = PBXBuildFile; fileRef = EB3C6B10C0DA4CB9B568142E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/README.md */; };
+		4EA64C6BFE314F6EA9D25C61 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.h */ = {isa = PBXBuildFile; fileRef = 8CFEF23D827F43989572ACF6 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.h */; };
+		E6E36CC05E5F4DD19252FF49 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/config.h */ = {isa = PBXBuildFile; fileRef = D1EAB8ADFB824A1186E908B4 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/config.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		404C88DA50A24556B29E0E7C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		42722C57260345CCAE25B7A1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6EA0FCA49B8744208453A3A8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D8EE0213745A47CDB4017EB0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0CF0B1B7151645A6ACFE4A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB216EE6F3D429A9053A430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D33E15244554F2896B77324;
+			remoteInfo = ZERO_CHECK;
+		};
+		6805CC6F2BA042B892ABFCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB216EE6F3D429A9053A430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D33E15244554F2896B77324;
+			remoteInfo = ZERO_CHECK;
+		};
+		9B2F23102EB54122B596C098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB216EE6F3D429A9053A430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24F81D0CD6D4144BB46E66D;
+			remoteInfo = ALL_BUILD;
+		};
+		E954367C680E490AA8B8B908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB216EE6F3D429A9053A430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA8EF558BCF4FF1B9A9E605;
+			remoteInfo = example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3231E63B05054BE8975E9052 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5CA1A3D6818B456682021258 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = example; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFEF23D827F43989572ACF6 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = example.h; path = example.h; sourceTree = SOURCE_ROOT; };
+		9ED6A272297747D5817038A7 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CBA244B948A948329BC63747 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		D1EAB8ADFB824A1186E908B4 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		EB3C6B10C0DA4CB9B568142E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		F159062981EA4B0FAF78E170 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cc; path = example.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01AD961B01794E7FB62AC19A = {
+			isa = PBXGroup;
+			children = (
+				99171FF31CEE4F8AA407B09D /* example */,
+				D3D1FD4E91B64D53BA4BAA8A /* ALL_BUILD */,
+				CDBB68319A0D4263BAEBF223 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F72FE593D7E4D5EBCAF9E8E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1EAB8ADFB824A1186E908B4 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/config.h */,
+				8CFEF23D827F43989572ACF6 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3FDBDF4A3C364722A6924A14 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F159062981EA4B0FAF78E170 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.cc */,
+				CBA244B948A948329BC63747 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6880E9FAB7584B06B16BE5F8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		99171FF31CEE4F8AA407B09D /* example */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDF4A3C364722A6924A14 /* Source Files */,
+				3F72FE593D7E4D5EBCAF9E8E /* Header Files */,
+				9ED6A272297747D5817038A7 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */,
+				EB3C6B10C0DA4CB9B568142E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/README.md */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		CDBB68319A0D4263BAEBF223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1A3D6818B456682021258 /* example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D1FD4E91B64D53BA4BAA8A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6880E9FAB7584B06B16BE5F8 /* CMake Rules */,
+				3231E63B05054BE8975E9052 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA8EF558BCF4FF1B9A9E605 /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CDB6457EC74B53BD14888E /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				81CAC241947943C0B95BE9CE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A6D6514DCA34C3AAA47B6CF /* PBXTargetDependency */,
+			);
+			name = example;
+			productName = example;
+			productReference = 5CA1A3D6818B456682021258 /* example */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BB216EE6F3D429A9053A430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = CC769A782C4B411A9A9722C7 /* Build configuration list for PBXProject "example" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D8EE0213745A47CDB4017EB0 /* Debug */,
+				42722C57260345CCAE25B7A1 /* Release */,
+				6EA0FCA49B8744208453A3A8 /* MinSizeRel */,
+				404C88DA50A24556B29E0E7C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 01AD961B01794E7FB62AC19A;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				D24F81D0CD6D4144BB46E66D /* ALL_BUILD */,
+				7D33E15244554F2896B77324 /* ZERO_CHECK */,
+				AAA8EF558BCF4FF1B9A9E605 /* example */,
+				18C4060466314B7EB951E021 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F35CB3D22764EEFB5645FB6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5C2C0DC87B5C46A681A46661 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		64CCA49F39A24875A6BE2A53 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		89BD07104C8B4F33B0E7C4CF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C57CAD29D73A443483463974 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F66E4A188725497EA0EDFDE0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CAC241947943C0B95BE9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2255DD9973944F64BAE1EBF8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/example.cc */,
+				21E680785372464E80E9437E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F8BBF406E1481589CF86D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA8EF558BCF4FF1B9A9E605 /* example */;
+			targetProxy = E954367C680E490AA8B8B908 /* PBXContainerItemProxy */;
+		};
+		2A6D6514DCA34C3AAA47B6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D33E15244554F2896B77324 /* ZERO_CHECK */;
+			targetProxy = 0CF0B1B7151645A6ACFE4A8A /* PBXContainerItemProxy */;
+		};
+		DD04B38209B24198A9EA2997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D33E15244554F2896B77324 /* ZERO_CHECK */;
+			targetProxy = 6805CC6F2BA042B892ABFCE2 /* PBXContainerItemProxy */;
+		};
+		E23E8A218A5443BAAA705983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24F81D0CD6D4144BB46E66D /* ALL_BUILD */;
+			targetProxy = 9B2F23102EB54122B596C098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C1DF4C80B648498ED99B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		071F901E95154734BCBAD2D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0DC472918E7E478A841F0F7B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		243E715815824E1DAA12D788 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/build";
+			};
+			name = MinSizeRel;
+		};
+		475484997D7A4F8588BBC8F6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4A3C0FDF3B044B84ACBED10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		64012605D49D4DB3903111F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6D37E6D7CB6D446B8A9D069B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7C7B208668BB4FB99742BB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		88EC2BEE4C524351BA075E0C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9164905BE91F44C29FE41312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A6688C6DD880481C8D0FBB8E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B0DB752781704EBBA78078A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BB039F9E0F7F4B96A442D103 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = example;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BEFC439C6A9F406095C695CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CEEC6B2CB53746439EB42111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D685FB5BA15C48C8A58AA9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/build";
+			};
+			name = Release;
+		};
+		DFCAEE7CBE7C406D8B255B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build/build";
+			};
+			name = Debug;
+		};
+		E57D065FDE66460DA8E471DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E81B960CF9E549EA9C5582F4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/TextureDemo/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32078C944D044DC09045B99E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C1DF4C80B648498ED99B5C /* Debug */,
+				CEEC6B2CB53746439EB42111 /* Release */,
+				0DC472918E7E478A841F0F7B /* MinSizeRel */,
+				E57D065FDE66460DA8E471DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6A1A0762D16547B88EEE01B6 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3C0FDF3B044B84ACBED10E /* Debug */,
+				7C7B208668BB4FB99742BB1A /* Release */,
+				88EC2BEE4C524351BA075E0C /* MinSizeRel */,
+				A6688C6DD880481C8D0FBB8E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC769A782C4B411A9A9722C7 /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCAEE7CBE7C406D8B255B48 /* Debug */,
+				D685FB5BA15C48C8A58AA9CB /* Release */,
+				243E715815824E1DAA12D788 /* MinSizeRel */,
+				071F901E95154734BCBAD2D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8CDB6457EC74B53BD14888E /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DB752781704EBBA78078A1 /* Debug */,
+				64012605D49D4DB3903111F4 /* Release */,
+				475484997D7A4F8588BBC8F6 /* MinSizeRel */,
+				BB039F9E0F7F4B96A442D103 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E89F4CCFB7EE489695B2A0F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D37E6D7CB6D446B8A9D069B /* Debug */,
+				9164905BE91F44C29FE41312 /* Release */,
+				BEFC439C6A9F406095C695CF /* MinSizeRel */,
+				E81B960CF9E549EA9C5582F4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BB216EE6F3D429A9053A430 /* Project object */;
+}

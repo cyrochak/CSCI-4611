@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		39C6AE3504FB4C4EBBB31362 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D1B12465E37426F8E8B93D3 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				0C6E5EECD6514860A5761264 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CB7463E36E5F488D9A19E855 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		4F02073C54454134BD243CA0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9CA6E4F49B4406188969900 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D7DB824973DD4594AD7CE96A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8471F30C4FEA429FAC227758 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 96D40ABE462E41F786AF36D7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DBD6AE8D60C347B192D0AF76 /* CMake Rules */,
+			);
+			dependencies = (
+				F0A2F0722188453F92A4D057 /* PBXTargetDependency */,
+				3409A275B22E48318341E78B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		269BBC1BA27F48EB985FA1C6 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h */ = {isa = PBXBuildFile; fileRef = 5813D9CDF1214668B38870FE /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h */; };
+		607F3677605E4A0EA35961CD /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/README.md */ = {isa = PBXBuildFile; fileRef = 5A66B33D4A3D464F86BC816E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/README.md */; };
+		6BAC00048AD34A87B98E25F5 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/main.cc */ = {isa = PBXBuildFile; fileRef = 50F48E17B0724B429A238E0C /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/main.cc */; };
+		7E150FB174434F4D9B55316A /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h.in */ = {isa = PBXBuildFile; fileRef = F52F1053472B45609B0BE4EC /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h.in */; };
+		84D7BAC514EF413098E08452 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/ball.h */ = {isa = PBXBuildFile; fileRef = 677DD250B4074F53BE7B50C8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/ball.h */; };
+		B48761FAEB8F48CDB80C2A96 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C78B78826F284761A4540DED /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */; };
+		C8BDE5B2B1D643C5AFB8F5F0 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.h */ = {isa = PBXBuildFile; fileRef = 7705DB20EA504332A1F8B7D8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.h */; };
+		F72CD80605814424B73FF8F0 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car.h */ = {isa = PBXBuildFile; fileRef = A6A8E8D493FD44CEA73ABB66 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car.h */; };
+		FD203B0E9FEB4BFCAC6ECE98 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.cc */ = {isa = PBXBuildFile; fileRef = A00E86C63A9A4484B2DFDC8E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		238B733F7C6147A486760FF2 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		CCB7EE1D04114E4198D4EC52 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F07FDF2008B44C25ABE75959 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F340BCEAB0E5436B921FD27E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		05DDFD7404EB4D81849C3D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8826C33F47354B2EABE05733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8471F30C4FEA429FAC227758;
+			remoteInfo = ALL_BUILD;
+		};
+		09E1E33A69AC40BA832D0F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8826C33F47354B2EABE05733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6D04C287618487F87DC95B9;
+			remoteInfo = "a2-carsoccer";
+		};
+		7CD36AA045C1492980B2DD92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8826C33F47354B2EABE05733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F02073C54454134BD243CA0;
+			remoteInfo = ZERO_CHECK;
+		};
+		C97C5A0FE87143879568D81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8826C33F47354B2EABE05733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F02073C54454134BD243CA0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3509D4D0C82940A8AB692C5E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		50F48E17B0724B429A238E0C /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		5813D9CDF1214668B38870FE /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		5A66B33D4A3D464F86BC816E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		677DD250B4074F53BE7B50C8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/ball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ball.h; path = ball.h; sourceTree = SOURCE_ROOT; };
+		7705DB20EA504332A1F8B7D8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = car_soccer.h; path = car_soccer.h; sourceTree = SOURCE_ROOT; };
+		A00E86C63A9A4484B2DFDC8E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = car_soccer.cc; path = car_soccer.cc; sourceTree = SOURCE_ROOT; };
+		A6A8E8D493FD44CEA73ABB66 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = car.h; path = car.h; sourceTree = SOURCE_ROOT; };
+		C78B78826F284761A4540DED /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4269C9CBCE94518A3D30E4B /* a2-carsoccer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "a2-carsoccer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52F1053472B45609B0BE4EC /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = config.h.in; path = config.h.in; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01017FD998884C5E92B5A681 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1B2ABF5B70AC455F9EC8D437 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				01017FD998884C5E92B5A681 /* CMake Rules */,
+				3509D4D0C82940A8AB692C5E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1D8CC9B220114BB3902B8F0C = {
+			isa = PBXGroup;
+			children = (
+				FC4686E71E874EB8878B10CD /* a2-carsoccer */,
+				1B2ABF5B70AC455F9EC8D437 /* ALL_BUILD */,
+				E36283328AFF4A49B825E49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9026725F4413421E8D19462B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00E86C63A9A4484B2DFDC8E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.cc */,
+				50F48E17B0724B429A238E0C /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E36283328AFF4A49B825E49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4269C9CBCE94518A3D30E4B /* a2-carsoccer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97981B9D6394B7E982E79E7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				677DD250B4074F53BE7B50C8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/ball.h */,
+				A6A8E8D493FD44CEA73ABB66 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car.h */,
+				7705DB20EA504332A1F8B7D8 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.h */,
+				5813D9CDF1214668B38870FE /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h */,
+				F52F1053472B45609B0BE4EC /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/config.h.in */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FC4686E71E874EB8878B10CD /* a2-carsoccer */ = {
+			isa = PBXGroup;
+			children = (
+				9026725F4413421E8D19462B /* Source Files */,
+				E97981B9D6394B7E982E79E7 /* Header Files */,
+				C78B78826F284761A4540DED /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/CMakeLists.txt */,
+				5A66B33D4A3D464F86BC816E /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/README.md */,
+			);
+			name = "a2-carsoccer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6D04C287618487F87DC95B9 /* a2-carsoccer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD154741104DC6BB038CCE /* Build configuration list for PBXNativeTarget "a2-carsoccer" */;
+			buildPhases = (
+				B22F2C67516847D48A571A2E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB1DC61198E840ADAA521166 /* PBXTargetDependency */,
+			);
+			name = "a2-carsoccer";
+			productName = "a2-carsoccer";
+			productReference = E4269C9CBCE94518A3D30E4B /* a2-carsoccer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8826C33F47354B2EABE05733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 71CD6C5C55C14BBA8856F36F /* Build configuration list for PBXProject "a2-carsoccer" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CCB7EE1D04114E4198D4EC52 /* Debug */,
+				F340BCEAB0E5436B921FD27E /* Release */,
+				F07FDF2008B44C25ABE75959 /* MinSizeRel */,
+				238B733F7C6147A486760FF2 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1D8CC9B220114BB3902B8F0C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				8471F30C4FEA429FAC227758 /* ALL_BUILD */,
+				4F02073C54454134BD243CA0 /* ZERO_CHECK */,
+				C6D04C287618487F87DC95B9 /* a2-carsoccer */,
+				39C6AE3504FB4C4EBBB31362 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6E5EECD6514860A5761264 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2B0DA4E3F1B841E8A92EA45A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		97CF665831884A8692EE7E99 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B42348121C6C46A78255A33B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D7DB824973DD4594AD7CE96A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DBD6AE8D60C347B192D0AF76 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build -f /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22F2C67516847D48A571A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD203B0E9FEB4BFCAC6ECE98 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/car_soccer.cc */,
+				6BAC00048AD34A87B98E25F5 /* /Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3409A275B22E48318341E78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6D04C287618487F87DC95B9 /* a2-carsoccer */;
+			targetProxy = 09E1E33A69AC40BA832D0F82 /* PBXContainerItemProxy */;
+		};
+		AB1DC61198E840ADAA521166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F02073C54454134BD243CA0 /* ZERO_CHECK */;
+			targetProxy = 7CD36AA045C1492980B2DD92 /* PBXContainerItemProxy */;
+		};
+		CB7463E36E5F488D9A19E855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8471F30C4FEA429FAC227758 /* ALL_BUILD */;
+			targetProxy = 05DDFD7404EB4D81849C3D8E /* PBXContainerItemProxy */;
+		};
+		F0A2F0722188453F92A4D057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F02073C54454134BD243CA0 /* ZERO_CHECK */;
+			targetProxy = C97C5A0FE87143879568D81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D678952525A446382C95383 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0FD98318D3B0443EB0C6C4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		24A52D6AACA841B6AD5C1DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		32A2E95AAC6A4866A079D28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3623B31372C84E91B16CFABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4F8DD0FFA65046C8AA0FDFEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		65728EB3CAA4442E948673C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72ABE6F68CC143ED872DDEBA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		74EFC6AAEFC84A58821A5D8F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		78F341DBC11F4A529D25FCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/build";
+			};
+			name = Release;
+		};
+		863F664CFCE6436B84079557 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		873AB5D4F4B04B298012BF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8876597466264B05B84865D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A9C857B68C83404780B9F738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B42573942F6C44B28C76595E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BC3A2EA7806C43D7A5DD620B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/Cyro/CSCI4611/repo-chakx011/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/Cyro/CSCI4611/repo-chakx011/lib/MinGfx-1.0/libMinGfxd.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/Cyro/CSCI4611/repo-chakx011/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a2-carsoccer";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/Cyro/CSCI4611/repo-chakx011/include/MinGfx-1.0","/Users/Cyro/CSCI4611/repo-chakx011/include","/Users/Cyro/CSCI4611/repo-chakx011/include/nanovg");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C8364A5F38BC41FDA13C0776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D0F6A44799E64572BEA558F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/build";
+			};
+			name = MinSizeRel;
+		};
+		F82FECB6C856470280554DDB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB6A2E43D9184381BE597301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/Cyro/CSCI4611/repo-chakx011/dev/a2-carsoccer/build/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1B12465E37426F8E8B93D3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8364A5F38BC41FDA13C0776 /* Debug */,
+				24A52D6AACA841B6AD5C1DEB /* Release */,
+				F82FECB6C856470280554DDB /* MinSizeRel */,
+				0D678952525A446382C95383 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71CD6C5C55C14BBA8856F36F /* Build configuration list for PBXProject "a2-carsoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6A2E43D9184381BE597301 /* Debug */,
+				78F341DBC11F4A529D25FCA0 /* Release */,
+				D0F6A44799E64572BEA558F7 /* MinSizeRel */,
+				863F664CFCE6436B84079557 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96D40ABE462E41F786AF36D7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD98318D3B0443EB0C6C4C6 /* Debug */,
+				873AB5D4F4B04B298012BF05 /* Release */,
+				B42573942F6C44B28C76595E /* MinSizeRel */,
+				74EFC6AAEFC84A58821A5D8F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9CA6E4F49B4406188969900 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A2E95AAC6A4866A079D28D /* Debug */,
+				3623B31372C84E91B16CFABF /* Release */,
+				4F8DD0FFA65046C8AA0FDFEA /* MinSizeRel */,
+				8876597466264B05B84865D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCCD154741104DC6BB038CCE /* Build configuration list for PBXNativeTarget "a2-carsoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C857B68C83404780B9F738 /* Debug */,
+				BC3A2EA7806C43D7A5DD620B /* Release */,
+				72ABE6F68CC143ED872DDEBA /* MinSizeRel */,
+				65728EB3CAA4442E948673C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8826C33F47354B2EABE05733 /* Project object */;
+}
